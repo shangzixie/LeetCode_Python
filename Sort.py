@@ -1,7 +1,6 @@
 class Solution1:
     """
-    @param A: an integer array
-    @return: nothing
+    quick sort
     """
 
     def sortIntegers2(self, A):
@@ -29,8 +28,7 @@ class Solution1:
 
 class Solution:
     """
-    @param A: an integer array
-    @return: nothing
+    merge sort
     """
 
     def sortIntegers2(self, A):

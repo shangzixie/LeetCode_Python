@@ -36,6 +36,8 @@ class Solution:
         visited.remove((i,j))  #大bug ！！！ 绝对不能忘了回溯啊
         return True if len(word) == len(path) and word == path else False  #处理单个字符的情况
 
+
+
 if __name__ == '__main__':
     board = ["ABCE","SFES","ADEE"]
     word = "ABCESEEEFS"
